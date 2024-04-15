@@ -1,0 +1,46 @@
+.about {
+    width: 100%;
+    height: 300;
+    display: flex;
+    flex-direction: column;
+    background-color:#DDDDDD;
+  }
+  .aboutImage {
+    width: 100%;
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .aboutText {
+    margin-top: 50px;
+    margin: 5rem 10rem;
+    text-align: center;
+
+  }
+  
+  .aboutText p {
+    bottom: 10rem;
+    color: black;
+    padding-left: 0%;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  .about .aboutText h1 {
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
+    
+  }
+  .about .aboutImage h1{
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }

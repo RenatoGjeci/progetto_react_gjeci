@@ -1,0 +1,26 @@
+footer {
+    background-color:#2C5150;
+    width: 100%;
+    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.logo_social{
+    width: 30px;
+}
+
+.icon_social{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+p{
+    padding-left: 40px;
+    color: white;
+}

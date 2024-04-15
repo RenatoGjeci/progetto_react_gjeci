@@ -1,0 +1,48 @@
+.logo{
+    width: 100px;
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: #2C5150;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px  black;
+    gap: 700px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    
+}
+li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+.Link{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+header li .Link:hover{
+    color: black;
+}
+header li .Link:hover::after{
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 20px;
+    bottom: -5px;
+}
+.title{
+    justify-content: left;
+    display: flex;
+    align-items: left;
+   
+}
