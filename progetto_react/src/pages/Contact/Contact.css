@@ -1,0 +1,92 @@
+.contact {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color:#DDDDDD;
+  }
+  
+  .contact .contactImage {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .contact .contactText {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  .contact .contactImage h1{
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    text-align: left;
+  }
+  
+  form input {
+    height: 40px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 4px;
+    border-bottom: 1px solid #121619;
+    color: black;
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  form textarea {
+    margin-top: 10px;
+    height: 70px;
+    width: 80%;
+    border-radius: 4px;
+    border: 1px solid black;
+    border-bottom: 1px solid #121619;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  form label {
+    margin-top: 10px;
+    color: #032827;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  form button {
+    padding: 10px;
+    border-radius: 4px;
+    border-color: #2C5150;
+    background-color: white;
+    color:#2C5150 ;
+    font-size: 16px;
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  form button:hover{
+    background-color: #2C5150;
+    color: white;
+    border-color: white;
+    }  
